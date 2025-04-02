@@ -9,4 +9,3 @@ else:
         print(f"{time2} vencedor")
     else:
         print("empate")
-        
