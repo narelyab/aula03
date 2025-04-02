@@ -1,16 +1,16 @@
 
 combustivel=input("qual combustivel usado?\n"
-                  "g para gasolina\n"
-                  "e para etanol\n")
+                  " G para gasolina "
+                  "E para etanol\n")
 litros=float(input("quantos litros foram abastecidos\n"))
-e=4.90
-g=5.80
+E=4.90
+G=5.80
 if combustivel == "g":
-    preco = litros * g
+    preco = litros * G
     print(f"abastecido {litros} litros "
           f"e foi gasto {preco}2f")
 elif combustivel=="e":
-    preco=litros*e
+    preco=litros*E
     print(f"abatecido{litros} litros "
           f"e foi gasyo{preco}2f")
 else:
